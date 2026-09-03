@@ -1,0 +1,42 @@
+# ---------- .NET / Visual Studio ----------
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+
+# ---------- Node / Frontend ----------
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ---------- Logs ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------- Environment / Secrets ----------
+.env
+.env.*
+appsettings.Production.json
+appsettings.*.local.json
+
+# ---------- Runtime-generated files (never commit real client data) ----------
+backend/PrintSaaS.API/EncryptedFiles/*
+!backend/PrintSaaS.API/EncryptedFiles/.gitkeep
+
+# ---------- Claude Code local settings ----------
+.claude/settings.local.json
+
+# ---------- Editor / OS ----------
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,6 @@
+@PrintSaaS.API_HostAddress = http://localhost:5149
+
+GET {{PrintSaaS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
